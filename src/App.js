@@ -26,7 +26,7 @@ const App = () => {
     const loggedUser = localStorage.getItem('username')
     if (loggedUser) {
       setLoggedInUser(loggedUser)
-      setAccessLevel(parseInt(localStorage.getItem('accessLevel')))
+      setAccessLevel(parseInt(localStorage.getItem('accessLevel') || '0'))
     }
   }, [])
 
