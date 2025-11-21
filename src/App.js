@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import Laskuri from './components/Laskuri'
-import Viesti from './components/Viesti'
 import Posts from './components/Posts'
 import CustomerList from './components/customers/CustomerList'
 import UserList from './components/users/UserList'
@@ -9,6 +8,7 @@ import Message from './components/Message'
 import Login from './components/Login'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
